@@ -68,14 +68,14 @@ void loop() {
 
   // Get power for motor 1
   power1 = analogRead(speed1);
-  if(digitalRead(direction1 == LOW) {
+  if(digitalRead(direction1 == LOW)) {
     // Make power negative if the direction switch is off (down)
     power1 *= -1;
   }
 
   // Get power for motor 2
   power2 = analogRead(speed2);
-  if(digitalRead(direction2 == LOW) {
+  if(digitalRead(direction2 == LOW)) {
     // Make power negative if the direction switch is off (down)
     power2 *= -1;
   }
