@@ -8,6 +8,21 @@
  * speeds. The other switches are set up to control the direction
  * and the potentiometers control the speeds.
  * 
+ * Hardware Needed:
+ *  Electronics:
+ *    3 SPDT switches
+ *    2 10k Ohm Potentiometers
+ *    2 Talon SR Motor Controllers
+ *    1 Arduino (any kind)
+ *  See the CAD folder in the Github repo for parts to 3d print
+ * 
+ * To use this code:
+ *  Follow the wiring shown in the "Pin Maps" section down below
+ *  Upload this code to the board
+ * 
+ * Author:
+ *  Wesley Soo-Hoo, Team Captain of FRC Team 687 (CAMS Robotics)
+ * 
  */
 
 
