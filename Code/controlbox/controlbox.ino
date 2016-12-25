@@ -93,4 +93,7 @@ void loop() {
   // Output the values to the Talons
   motor1.writeMicroseconds(power1);
   motor2.writeMicroseconds(power2);
+
+  // Add a delay so we dont blow up
+  delay(20); // 50 Hz
 }
